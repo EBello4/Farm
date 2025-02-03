@@ -6,7 +6,9 @@ h1, h2 {
     font-family: 'habibi', ariel, helvetica, sans-serif;
 }
 
-
+ul {
+    list-style-type: none;
+}
 
 .header {
     background-color: #06A816;
