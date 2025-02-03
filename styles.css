@@ -2,9 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
 
 
-h1, h2 {
-    font-family: 'habibi', ariel, helvetica, sans-serif;
+html {
+    font-family: 'habibi';
 }
+
+h1, h2 {
+    font-family: 'Irish Grover', ariel, helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3, p {
+    font-size: 1.25em;
+}
+
 
 ul {
     list-style-type: none;
