@@ -70,21 +70,21 @@ ul {
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 834px) {
     .fruitImages .vegetableImages {
-        display: grid;
+        display: inline-grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 1280px) {
     .fruitImages .vegetableImages {
-        display: grid;
+        display: inline-grid;
         grid-template-columns: repeat(3, 2fr);
     }
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media screen and (min-width: 1440px) {
     .fruitImages .vegetableImages {
-        display: grid;
+        display: inline-grid;
         grid-template-columns: repeat(4, 1fr);
     }
 }
