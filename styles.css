@@ -32,10 +32,14 @@ ul {
     background-color: #E75D02;
 }
 
+
 .header {
     background-color: #06A816;
     color: #ffffff;
     width: 100%;
+}
+.nav {
+    background-color: #E75D02;
 }
 
 .fruitImages .vegetableImages p {
