@@ -36,6 +36,11 @@ h3, p {
     width: 100%;
 }
 
+.fruitImages .vegetableImages img {
+    background-color: #000000;
+    opacity: 50%;
+}
+
 .aside {
     background-color: #06A816;
     color: #ffffff;
