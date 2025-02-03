@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
+
+
+h1, h2 {
+    font-family: 'habibi', ariel, helvetica, sans-serif;
+}
+
+
+
+.header {
+    background-color: #06A816;
+    color: #ffffff;
+}
