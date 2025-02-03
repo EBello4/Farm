@@ -27,20 +27,21 @@ h3, p {
     font-size: 1.25em;
 }
 
-ul a {
-    list-style: none;
-    grid: inline-block;
-    background-color: #E75D02;
+ul {
+    list-style-type: none;
+    padding: 10px;
+    border: 0px;
+    background-color: #E75d02;
 }
+ li, a {
+    color: #ffffff;
+ }
 
 
 .header {
     background-color: #06A816;
     color: #ffffff;
     width: 100%;
-}
-.nav {
-    background-color: #E75D02;
 }
 
 .fruitImages .vegetableImages p {
