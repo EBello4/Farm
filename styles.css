@@ -28,7 +28,7 @@ h3, p {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     background-color: #E75D02;
 }
 
