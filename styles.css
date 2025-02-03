@@ -29,6 +29,7 @@ h3, p {
 
 ul {
     list-style: none;
+    grid: inline-block;
     background-color: #E75D02;
 }
 
