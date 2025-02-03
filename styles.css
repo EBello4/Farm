@@ -61,8 +61,13 @@ ul {
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 428px) {
-    .fruitImages .vegetableImages {
+    .container {
         display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fruitImages .vegetableImages {
+        display: inline-grid;
         grid-template-columns: 1fr;
     }
 }
