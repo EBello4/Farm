@@ -3,16 +3,22 @@
 
 /*-------------------- CSS RESET ---------------------------------------------------*/
 
-
+/*      
+Green: #06A816
+Orange: #E75D02
+Black: #000000
+White: #ffffff
+*/
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
-html {
+body {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 .heading {
     font-family: 'Irish Grover', Arial, Helvetica, sans-serif;
+    background-color: #06A816;
+    color: #ffffff;
 }
 
 h1 {
