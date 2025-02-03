@@ -4,7 +4,8 @@
 /*-------------------- CSS RESET ---------------------------------------------------*/
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
-body {
+html {
+    box-sizing: border-box;
     font-family: 'habibi', Arial, Helvetica, sans-serif;
 }
 
@@ -25,7 +26,7 @@ h3, p {
     font-size: 1.25em;
 }
 
-.ul {
+ul {
     list-style-type: none;
     background-color: #E75D02;
 }
@@ -46,6 +47,10 @@ h3, p {
     color: #ffffff;
 }
 
+.contact {
+    text-align: center;
+}
+
 .footer {
     text-align: center;
     color: #06A816;
@@ -56,6 +61,7 @@ h3, p {
     .fruitImages .vegetableImages {
         display: grid;
         grid-template-columns: 1fr;
+
     }
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
