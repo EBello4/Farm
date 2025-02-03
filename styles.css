@@ -14,7 +14,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 2.5em;
-    border-style: #000000 1px;
+    border-style: solid #000000 1px;
 }
 
 h2 {
@@ -26,7 +26,6 @@ h3, p {
 }
 
 ul {
-    display: block;
     list-style-type: none;
     background-color: #E75D02;
 }
@@ -38,8 +37,36 @@ ul {
     text-shadow: 1px black;
 }
 
+.aside {
+    background-color: #06A816;
+    color: #ffffff;
+}
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+@media screen and (min-width: 428px) {
+    .fruitImages .vegetableImages {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media screen and (min-width: 834px) {
+    .fruitImages .vegetableImages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media screen and (min-width: 1280px) {
+    .fruitImages .vegetableImages {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+}
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+@media screen and (min-width: 1440px) {
+    .fruitImages .vegetableImages {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
