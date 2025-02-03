@@ -34,12 +34,16 @@ ul {
     background-color: #06A816;
     color: #ffffff;
     width: 100%;
-    text-shadow: 1px black;
 }
 
 .aside {
     background-color: #06A816;
     color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+    color: #06A816;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
