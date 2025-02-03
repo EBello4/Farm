@@ -27,7 +27,7 @@ h3, p {
     font-size: 1.25em;
 }
 
-ul {
+ul a {
     list-style: none;
     grid: inline-block;
     background-color: #E75D02;
