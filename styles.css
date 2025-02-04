@@ -53,7 +53,8 @@ ul {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     background-color: #E75D02;
     border-color: #ffffff;
-    width: 100px;
+    padding: center;
+    text-align: center;
 }
 
 .top {
@@ -63,6 +64,7 @@ ul {
     z-index: 1;
     left: 90%;
     top: 90%;
+    padding: 50px;
 }
 
 p.fruitImages, p.vegetableImages {
