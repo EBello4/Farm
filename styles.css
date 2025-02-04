@@ -39,7 +39,7 @@ h3, body {
     font-size: 1.25em;
 }
 
-.header {
+.header, footer {
     font-family: 'Irish Grover', Arial, Helvetica, sans-serif;
     background-color: #06A816;
     color: #ffffff;
@@ -53,19 +53,19 @@ ul {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     background-color: #E75D02;
     border-color: #ffffff;
-    padding: 25px;
+    padding: 10px;
     margin: 10px;
     text-align: center;
 }
 
 .top {
     background-color: #E75D02;
-    border: 1px solid #ffffff;
+    border: 5px solid #ffffff;
     position: fixed;
     z-index: 1;
     left: 90%;
     top: 90%;
-    padding: 5px;
+    padding: 20px;
 }
 
 .fruits p, h2 {
@@ -76,13 +76,8 @@ ul {
     text-align: left;
 }
 
-.contact {
-    background-color: #06A816;
-    color: #ffffff;
-}
-
 .footer {
-    color: #06A816;
+    color: #06A816
 }
 
 
