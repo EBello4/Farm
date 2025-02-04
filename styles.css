@@ -45,12 +45,13 @@ h3, body {
     color: #ffffff;
     padding: 10px;
 }
-
+/*
 ul {
     list-style: none;
 
-}
+} */
 .nav {
+    list-style: none;
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     background-color: #E75D02;
     padding: 10px;
