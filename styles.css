@@ -46,12 +46,14 @@ h3, body {
 
 ul {
     list-style: none;
-    
+
 }
 
 .top {
     position: fixed;
     z-index: 1;
+    left: 80vw;
+    top: 80vw;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
