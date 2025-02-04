@@ -53,6 +53,7 @@ ul {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     background-color: #E75D02;
     border-color: #ffffff;
+    width: 100px;
 }
 
 .top {
@@ -60,7 +61,7 @@ ul {
     border-color: #ffffff;
     position: fixed;
     z-index: 1;
-    left: 10%;
+    left: 90%;
     top: 90%;
 }
 
@@ -79,6 +80,8 @@ ul {
     .fruitImages .vegetableImages {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 20px;
     }
 }
 
