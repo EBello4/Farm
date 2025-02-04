@@ -25,6 +25,7 @@ img {
 
 body {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -50,6 +51,8 @@ ul {
 }
 
 .top {
+    background-color: #E75D02;
+    border-color: #ffffff;
     position: fixed;
     z-index: 1;
     left: 80vw;
@@ -58,26 +61,36 @@ ul {
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 428px) {
-    html {
+    .fruitImages .vegetableImages {
         display: grid;
-        grid-template-columns: 1fr;
+
+       
     }
 }
 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 834px) {
-
+    .fruitImages .vegetableImages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 1280px) {
-
+    .fruitImages .vegetableImages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media screen and (min-width: 1440px) {
-
+    .fruitImages .vegetableImages {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
