@@ -44,6 +44,11 @@ h3, body {
     color: #ffffff;
 }
 
+ul {
+    list-style: none;
+    
+}
+
 .top {
     position: fixed;
     z-index: 1;
