@@ -1,8 +1,3 @@
-/* -------------------- IMPORTED FONTS -------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
-
-/*-------------------- CSS RESET ---------------------------------------------------*/
-
 /*      
 Green: #06A816
 Orange: #E75D02
@@ -10,7 +5,24 @@ Black: #000000
 White: #ffffff
 */
 
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
+
+/*-------------------- CSS RESET ---------------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* -------------------- ROOT VARIABLES --------------------------------------- */
+
 body {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
 }
@@ -30,6 +42,12 @@ h3, body {
     font-family: 'Irish Grover', Arial, Helvetica, sans-serif;
     background-color: #06A816;
     color: #ffffff;
+}
+
+.top {
+    position: fixed;
+    top: 90vw;
+    right: 5vw;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
