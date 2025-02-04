@@ -91,7 +91,7 @@ ul {
 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-/*
+
 @media screen and (min-width: 834px) {
     .fruitImages, .vegetableImages {
         display: grid;
@@ -102,7 +102,7 @@ ul {
 
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-/*
+
 @media screen and (min-width: 1280px) {
     .fruitImages, .vegetableImages {
         display: grid;
