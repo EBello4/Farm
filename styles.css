@@ -66,8 +66,12 @@ ul {
 }
 
 
-.footer {
+.contact {
     background-color: #06A816;
+}
+
+.footer {
+    color: #06A816;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
