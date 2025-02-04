@@ -63,7 +63,7 @@ ul {
     position: fixed;
     z-index: 1;
     left: 90%;
-    top: 85%;
+    top: 90%;
     padding: 10px;
 }
 
@@ -80,6 +80,11 @@ ul {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 40px;
     }
 }
 
