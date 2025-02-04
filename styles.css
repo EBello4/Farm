@@ -63,8 +63,8 @@ ul {
     position: fixed;
     z-index: 1;
     left: 90%;
-    top: 90%;
-    padding: 15px;
+    top: 985;
+    padding: 10px;
 }
 
 .fruitImages p, h2 {
