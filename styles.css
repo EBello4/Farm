@@ -53,6 +53,7 @@ ul {
 .nav {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     background-color: #E75D02;
+    padding: 10px;
     border-color: #ffffff;
     text-align: center;
 }
