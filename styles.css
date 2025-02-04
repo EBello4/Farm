@@ -62,7 +62,7 @@ ul {
     border: 2px solid #ffffff;
     position: fixed;
     z-index: 1;
-    left: 85%;
+    left: 90%;
     top: 85%;
     padding: 15px;
 }
@@ -79,7 +79,8 @@ ul {
 @media screen and (min-width: 428px) {
     .fruitImages, .vegetableImages {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        justify-content: space-between;
     }
 
     .header {
