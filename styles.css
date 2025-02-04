@@ -65,7 +65,7 @@ ul {
     z-index: 1;
     left: 90%;
     top: 90%;
-    padding: 25px;
+    padding: 5px;
 }
 
 .fruits p, h2 {
@@ -84,6 +84,7 @@ ul {
 .footer {
     color: #06A816;
 }
+
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (max-width: 428px) {
