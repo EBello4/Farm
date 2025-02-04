@@ -42,26 +42,35 @@ h3, body {
     font-family: 'Irish Grover', Arial, Helvetica, sans-serif;
     background-color: #06A816;
     color: #ffffff;
-    z-index: 1;
 }
 
 .top {
     position: fixed;
-    
+    z-index: 1;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-
+@media screen and (min-width: 428px) {
+    html {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media screen and (min-width: 834px) {
 
+}
 
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media screen and (min-width: 1280px) {
 
+}
 
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+@media screen and (min-width: 1440px) {
 
-
+}
