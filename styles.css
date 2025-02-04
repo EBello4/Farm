@@ -59,12 +59,12 @@ ul {
 
 .top {
     background-color: #E75D02;
-    border: 5px solid #ffffff;
+    border: 2px solid #ffffff;
     position: fixed;
     z-index: 1;
     left: 90%;
     top: 90%;
-    padding: 20px;
+    padding: 15px;
 }
 
 .fruits p, h2 {
