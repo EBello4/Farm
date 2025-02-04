@@ -49,18 +49,22 @@ ul {
     list-style: none;
 
 }
+.nav {
+    background-color: #E75D02;
+    border-color: #ffffff;
+}
 
 .top {
     background-color: #E75D02;
     border-color: #ffffff;
     position: fixed;
     z-index: 1;
-    left: 80vw;
-    top: 80vw;
+    left: 10%;
+    top: 90%;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 428px) {
     .fruitImages .vegetableImages {
         display: grid;
 
@@ -70,7 +74,7 @@ ul {
 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-@media screen and (min-width: 834px) {
+@media screen and (max-width: 834px) {
     .fruitImages .vegetableImages {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -79,7 +83,7 @@ ul {
 
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .fruitImages .vegetableImages {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -88,7 +92,7 @@ ul {
 
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
     .fruitImages .vegetableImages {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
