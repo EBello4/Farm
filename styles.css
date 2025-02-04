@@ -65,6 +65,11 @@ ul {
     top: 90%;
 }
 
+p.fruitImages, p.vegetableImages {
+    background-color: #000000;
+    text-align: center;
+}
+
 
 .contact {
     background-color: #06A816;
