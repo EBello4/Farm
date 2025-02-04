@@ -39,7 +39,7 @@ h3, body {
     font-size: 1.25em;
 }
 
-.header, footer {
+.header, .footer {
     font-family: 'Irish Grover', Arial, Helvetica, sans-serif;
     background-color: #06A816;
     color: #ffffff;
@@ -82,7 +82,7 @@ ul {
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (max-width: 428px) {
-    .fruitImages .vegetableImages {
+    .fruitImages, .vegetableImages {
         display: grid;
 
        
@@ -92,7 +92,7 @@ ul {
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (max-width: 834px) {
-    .fruitImages .vegetableImages {
+    .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
@@ -103,7 +103,7 @@ ul {
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (max-width: 1280px) {
-    .fruitImages .vegetableImages {
+    .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -112,7 +112,7 @@ ul {
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media screen and (max-width: 1440px) {
-    .fruitImages .vegetableImages {
+    .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
