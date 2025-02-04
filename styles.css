@@ -116,5 +116,6 @@ ul {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        margin: 0px;
     }
 }
