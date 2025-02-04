@@ -68,7 +68,13 @@ ul {
     padding: 25px;
 }
 
+.fruits p, h2 {
+    text-align: left;
+}
 
+.vegetables p, h2 {
+    text-align: left;
+}
 
 .contact {
     background-color: #06A816;
