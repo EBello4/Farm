@@ -116,11 +116,12 @@ ul {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        padding: 5px;
     }
 
     .contact {
         display: grid;
+        grid-gap: 10px;
+        justify-content: space-between;
         grid-template-columns: repeat(4, 1fr);
     }
 }
