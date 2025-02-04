@@ -45,13 +45,12 @@ h3, body {
     color: #ffffff;
     padding: 10px;
 }
-/*
+
 ul {
     list-style: none;
 
-} */
+} 
 .nav {
-    list-style: none;
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     background-color: #E75D02;
     padding: 10px;
@@ -69,13 +68,7 @@ ul {
     padding: 10px;
 }
 
-.fruitImages p, h2 {
-    text-align: left;
-}
 
-.vegetableImages p, h2 {
-    text-align: left;
-}
 
 .footer {
     color: #06A816
