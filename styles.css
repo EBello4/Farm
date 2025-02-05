@@ -124,8 +124,5 @@ ul {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .fruits h2, p {
-        text-align: left;
-    }
-    }
+    
 }
