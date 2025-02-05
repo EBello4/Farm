@@ -132,7 +132,7 @@ ul {
         grid-column: 2 / 3;
     }
 
-    h2.address {
+    .address + h2 {
         grid-column: 1 / 2;
     }
 
