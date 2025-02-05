@@ -67,6 +67,12 @@ ul {
     padding: 15px;
 }
 
+p.fruitImages {
+    background-color: #000000;
+    width: 100px;
+    opacity: 50%;
+}
+
 
 
 .footer {
