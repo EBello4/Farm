@@ -128,5 +128,14 @@ ul {
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .address {
+        grid-column: 2 / 3;
+    }
+
+    h2.address {
+        grid-column: 1 / 2;
+    }
+
+
     
 }
