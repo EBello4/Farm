@@ -121,8 +121,6 @@ ul {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-auto-columns: 0;
-        overflow: hidden;
     }
 
     .contact {
