@@ -100,7 +100,6 @@ ul {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
     }
 }
 
@@ -117,7 +116,7 @@ ul {
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
