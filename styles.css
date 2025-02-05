@@ -132,7 +132,7 @@ ul {
         grid-column: 2 / 3;
     }
 
-    .address h2 {
+    .address h3 {
         grid-column: 1 / 2;
     }
 
@@ -140,7 +140,7 @@ ul {
         grid-column: 4 / 5;
     }
 
-    .hours h2 {
+    .hours h3 {
         grid-column: 3 / 4;
     }
 
