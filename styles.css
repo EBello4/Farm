@@ -136,6 +136,14 @@ ul {
         grid-column: 1 / 2;
     }
 
+    .hours {
+        grid-column: 4 / 5;
+    }
+
+    .hours h2 {
+        grid-column: 3 / 4;
+    }
+
 
     
 }
