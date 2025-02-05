@@ -117,7 +117,7 @@ p.fruitImages {
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
