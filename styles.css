@@ -122,13 +122,13 @@ ul {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .contact {
+    .aside {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(4, 1fr);        
         }
 
-    .contact h2 {
+    .contact {
         grid-column: 1 / 2;
     }
 
@@ -136,7 +136,14 @@ ul {
         grid-column: 2 / 3;
     }
 
-    
+    .title {
+        grid-column: 3 / 4;
+    }
+
+    .hours {
+        grid-column: 4 / 5;
+    }
+
 
     }
     
