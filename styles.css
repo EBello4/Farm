@@ -68,7 +68,7 @@ ul {
     padding: 15px;
 }
 
-.fruitImages + p {
+.fruitImages p {
     background-color: #000000;
     width: 100px;
     opacity: 50%;
@@ -89,7 +89,7 @@ ul {
         grid-gap: 10px;
     }
 
-    .header {
+    * {
         text-align: center;
     }
 }
