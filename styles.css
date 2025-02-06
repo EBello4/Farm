@@ -103,6 +103,13 @@ ul {
         grid-gap: 10px;
     }
 
+    .fruits {
+        text-align: left;
+    }
+    .vegetables {
+        text-align: left;
+    }
+
     * {
         text-align: center;
     }
@@ -139,7 +146,6 @@ ul {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(4, 1fr);
-        justify-content: center;
     }
 
     .contact {
