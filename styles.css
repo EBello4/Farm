@@ -122,16 +122,6 @@ ul {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-    .contact, .address {
-        grid-column: 1 / 2;
-        align-content: center;
-    }
-
-    .title, .hours {
-        grid-column: 2 / 3;
-        align-content: center;
     }
 }
 
