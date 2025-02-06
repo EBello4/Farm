@@ -25,6 +25,7 @@ img {
 
 body {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
+    min-width: 427px;
     text-align: center;
 }
 
@@ -51,8 +52,10 @@ ul {
 } 
 .nav {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
-    display: grid;
+    text-decoration: none;
+    display: block;
     background-color: #E75D02;
+    margin: 10px;
     padding: 10px;
     border-color: #ffffff;
     text-align: center;
@@ -71,9 +74,19 @@ ul {
 .fruitImages p {
     color: #ffffff;
     background-color: #000000;
-    width: 150px;
+    width: 125px;
     padding: 10px;
     opacity: 70%;
+    z-index: 1;
+}
+
+.vegetableImages p {
+    color: #ffffff;
+    background-color: #000000;
+    width: 125px;
+    padding: 10px;
+    opacity: 70%;
+    z-index: 1;
 }
 
 
