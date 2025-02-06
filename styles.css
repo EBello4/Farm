@@ -103,15 +103,12 @@ ul {
         grid-gap: 10px;
     }
 
-    .fruits {
-        text-align: left;
-    }
-    .vegetables {
-        text-align: left;
-    }
-
     * {
         text-align: center;
+    }
+
+    .fruits, .vegetables {
+        text-align: left;
     }
 }
 
