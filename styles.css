@@ -134,6 +134,31 @@ ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .aside {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+    }
+
+    .contact {
+        grid-column: 1 / 2;
+    }
+
+    .address {
+        grid-column: 2 / 3;
+    }
+
+    .title {
+        grid-column: 3 / 4;
+    }
+
+    .hours {
+        grid-column: 4 / 5;
+    }
+
+    
 }
 
 
@@ -149,6 +174,7 @@ ul {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
         }
 
     .contact {
