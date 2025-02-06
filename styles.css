@@ -122,23 +122,7 @@ ul {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    .contact {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-
-    .address {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-
-    .title {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    .hours {
-        grid-area: 2 / 2 / 3 / 3;
+        align-content: center;
     }
 }
 
