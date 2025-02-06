@@ -23,7 +23,7 @@ img {
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 
-body {
+* {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -51,6 +51,7 @@ ul {
 } 
 .nav {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
+    display: grid;
     background-color: #E75D02;
     padding: 10px;
     border-color: #ffffff;
@@ -70,7 +71,8 @@ ul {
 .fruitImages p {
     color: #ffffff;
     background-color: #000000;
-    width: 100%;
+    width: 150px;
+    padding: 10px;
     opacity: 70%;
 }
 
