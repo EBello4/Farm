@@ -23,7 +23,7 @@ img {
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 
-* {
+body {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     text-align: center;
 }
