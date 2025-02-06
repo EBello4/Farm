@@ -125,10 +125,12 @@ ul {
     }
     .contact, .address {
         grid-column: 1 / 2;
+        align-content: center;
     }
 
     .title, .hours {
         grid-column: 2 / 3;
+        align-content: center;
     }
 }
 
