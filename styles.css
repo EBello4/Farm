@@ -51,7 +51,6 @@ ul {
 } 
 .nav {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
-    display: flex;
     background-color: #E75D02;
     padding: 10px;
     border-color: #ffffff;
@@ -69,9 +68,10 @@ ul {
 }
 
 .fruitImages p {
+    color: #ffffff;
     background-color: #000000;
-    width: 100px;
-    opacity: 50%;
+    width: 100%;
+    opacity: 70%;
 }
 
 
