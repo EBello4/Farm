@@ -87,7 +87,9 @@ ul {
     opacity: 70%;
     z-index: 1;
 }
-
+.fruitImages, .vegetableImages {
+    align-content: center;
+}
 
 
 .footer {
@@ -108,7 +110,7 @@ ul {
     }
 
     .fruits, .vegetables {
-        text-align: left;
+        align-content: left;
     }
 }
 
