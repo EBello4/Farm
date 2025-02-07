@@ -86,14 +86,7 @@ ul {
     width: 125px;
     padding: 10px;
     opacity: 70%;
-    text-align: center;
     z-index: 1;
-}
-
-img {
-    position: absolute;
-    top: 50%;
-    right: 50%;
 }
 
 .footer {
