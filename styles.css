@@ -70,6 +70,8 @@ li {
     background-color: #E75D02;
     border: 2px solid #ffffff;
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
     position: fixed;
     z-index: 1;
     left: 90%;
