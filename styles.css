@@ -80,18 +80,24 @@ ul {
 .fruitImages p {
     color: #ffffff;
     background-color: #000000;
+    position: relative;
     width: 125px;
     padding: 10px;
     opacity: 70%;
+    top: 50%;
+    left: 50%;
     z-index: 1;
 }
 
 .vegetableImages p {
     color: #ffffff;
     background-color: #000000;
+    position: relative;
     width: 125px;
     padding: 10px;
     opacity: 70%;
+    top: 50%;
+    left: 50%;
     z-index: 1;
 }
 
