@@ -76,6 +76,9 @@ ul {
     width: 125px;
     padding: 10px;
     opacity: 70%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
     z-index: 1;
 }
 
@@ -85,12 +88,17 @@ ul {
     width: 125px;
     padding: 10px;
     opacity: 70%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
     text-align: center;
     z-index: 1;
 }
 
 img {
-    align-content: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
 }
 
 .footer {
