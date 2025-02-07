@@ -76,6 +76,7 @@ ul {
     width: 125px;
     padding: 10px;
     opacity: 70%;
+    justify-content: center;
     z-index: 1;
 }
 
@@ -85,6 +86,7 @@ ul {
     width: 125px;
     padding: 10px;
     opacity: 70%;
+    justify-content: center;
     z-index: 1;
 }
 
