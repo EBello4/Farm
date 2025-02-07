@@ -26,7 +26,7 @@ img {
 body {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     min-width: 427px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h1 {
@@ -121,6 +121,7 @@ img {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
     }
 
     .aside {
