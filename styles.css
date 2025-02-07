@@ -58,15 +58,18 @@ li {
     background-color: #E75D02;
     border: 2px solid #ffffff;
     align-content: center;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
     border-radius: 10px;
 }
 .nav {
     font-family: 'Habibi', Arial, Helvetica, sans-serif;
     background-color: #E75D02;
     border-color: #ffffff;
-    height: 100px;
+    /* height: 100px;
     width: 300px;
-    margin: 10px;
+    margin: 10px; */
     text-decoration: none;
     justify-content: center;
 }
