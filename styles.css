@@ -49,14 +49,23 @@ h3, body {
 
 ul {
     list-style: none;
-} 
-.nav {
-    font-family: 'Habibi', Arial, Helvetica, sans-serif;
+}
+
+li {
     background-color: #E75D02;
-    border-color: #ffffff;
+    border: 2px solid #ffffff;
+    text-align: center;
     height: 100px;
     width: 150px;
     margin: 10px;
+}
+.nav {
+    font-family: 'Habibi', Arial, Helvetica, sans-serif;
+    /* background-color: #E75D02;
+    border-color: #ffffff;
+    height: 100px;
+    width: 150px;
+    margin: 10px; */
     text-decoration: none;
     justify-content: center;
 }
