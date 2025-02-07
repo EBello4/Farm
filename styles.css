@@ -87,6 +87,11 @@ ul {
     opacity: 70%;
     z-index: 1;
 }
+
+img {
+    position: relative;
+}
+
 .footer {
     color: #06A816;
 }
@@ -138,12 +143,13 @@ ul {
     .fruitImages, .vegetableImages {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
     }
 
     .aside {
         display: grid;
-        grid-gap: 10px;
         grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
     }
 
     .contact {
