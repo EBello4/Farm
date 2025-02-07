@@ -68,8 +68,8 @@ li {
 
 .top {
     background-color: #E75D02;
-    /*border: 2px solid #ffffff;
-    padding: 15px; */
+    order: 2px solid #ffffff;
+    padding: 15px; 
     position: fixed;
     z-index: 1;
     left: 90%;
