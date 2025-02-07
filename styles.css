@@ -133,6 +133,22 @@ li {
         grid-template-rows: 1fr;
         align-content: center;
     }
+
+    .contact {
+        grid-column: 1 / 2;
+    }
+
+    .address {
+        grid-column: 1 / 2;
+    }
+
+    .title {
+        grid-column: 2 / 3;
+    }
+
+    .hours {
+        grid-column: 2 / 3;
+    }
 }
 
 
