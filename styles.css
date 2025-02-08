@@ -75,6 +75,8 @@ ul {
     z-index: 2;
     left: 90%;
     top: 85%;
+    height: 60px;
+    width: 50px;
 }
 
 img {
