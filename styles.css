@@ -123,12 +123,12 @@ img {
         justify-content: center;
     }
 
-    * {
-        text-align: center;
-    }
-
     .fruits, .vegetables {
         text-align: left;
+    }
+
+    * {
+        text-align: center;
     }
 }
 
